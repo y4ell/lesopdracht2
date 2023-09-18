@@ -10,7 +10,16 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-/*grijs #899CA0, donkergroen #1C2B32*/
+
+/*Hi docent! Mijn excuus voor hoe rommelig alles er uit ziet.
+Ik ben een week ziek geweest waardoor ik GitHub plus de les plus de opdracht in anderhalve dag heb
+moeten doen - zoals je ziet zijn er veel fouten en lijkt mijn site in veel niet op het voorbeeld.
+Door de tijdsnood is het me niet gelukt om er beter in te duiken, en op maandag is er natuurlijk ook
+geen front end begeleiding.
+Ik heb het nu maar zo globaal mogelijk af gemaakt en gedaan wat lukte :)
+Ik schaam me een beetje om het zo in te leveren, maar ik zou toch feedback waarderen.
+Bedankt!
+ */
 
 /*////////////////////////
     1. Global Styles
@@ -25,13 +34,20 @@ Table of Contents:
     font-family: poppinsFat;
     src: url("../fonts/Poppins-Bold.ttf");
 }
-
+:root {
+    grey: #899CA0;
+    darkgreen: #1C2B32;
+}
 body {
     font-family: poppins;
     font-size: 10px;
     color: #1C2B32;
 }
 
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
 
 
 h1 {
@@ -63,15 +79,9 @@ a:hover {
 
 }
 
-
-
-
-
-
-/*////////////////////////
-    2. Typography
-////////////////////////*/
-
+cite {
+    font-style: italic;
+}
 
 
 
@@ -129,15 +139,39 @@ a:hover {
 
 /*///////////// 3.2 Testimonial /////////////*/
 
-.blockquote {
-    color: white;
+.quote {
     border-radius: 10px 10px 10px 10px;
-    padding-top: 10px;
-    padding-bottom:10px;
-    width: 150px;
+    padding: 40px 40px 40px 40px;
+    padding-left: 80px;
+    padding-right: 60px;
+    width: 600px;
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    position: relative;
+}
 
+.imgquote {
+    width: 20px;
+    height: 20px;
+    position: left;
+}
+
+
+.cite {
+    display: block;
+}
+
+.imgjane {
+    border-radius: 100px;
+    width: 44px;
+    height: 44px;
+    vertical-align: baseline;
+}
+
+.imgjohn {
+    border-radius: 100px;
+    width: 44px;
+    height: 44px;
+    vertical-align: baseline;
 }
 
 
@@ -165,7 +199,15 @@ a:hover {
 
 .summary {
     cursor:pointer;
+    list-style-type: "⯈";
 }
+
+/*.summary::after {*/
+/*    list-style-type: "⯆";*/
+/*}*/
+
+
+
 
 .details {
     background-color: #899CA0;
@@ -177,3 +219,14 @@ a:hover {
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+.footer {
+    align-self: center;
+    text-align: center;
+    width: 1000px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1C2B32;
+    color: white;
+}
