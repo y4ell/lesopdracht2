@@ -1,0 +1,179 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*grijs #899CA0, donkergroen #1C2B32*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppinsFat;
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+
+body {
+    font-family: poppins;
+    font-size: 10px;
+    color: #1C2B32;
+}
+
+
+
+h1 {
+    font-family: poppinsFat;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: poppinsFat;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: gray;
+    text-decoration: underline;
+}
+
+/*visited link*/
+a:visited {
+    color: #899CA0;
+}
+
+/* mouse over link */
+a:hover {
+    color: #899CA0;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+
+.main {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    width: 1000px;
+    height: 475px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+   }
+
+.header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+#domain-name-field {
+    color: #1C2B32;
+    border: 1px solid #1C2B32;
+    border-radius: 15px 0px 0px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 70px;
+    margin: -10px;
+}
+
+#submit {
+    color: white;
+    background-color: #1C2B32;
+    border: 1px solid #1C2B32;
+    border-radius: 0px 15px 15px 0px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    width: 150px;
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.blockquote {
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    width: 150px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
+}
+
+
+
+/*///////////// 3.3 Support /////////////*/
+
+.rounded-image {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #1C2B32;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+.summary {
+    cursor:pointer;
+}
+
+.details {
+    background-color: #899CA0;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+
+/*///////////// 3.5 Footer /////////////*/
