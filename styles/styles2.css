@@ -1,0 +1,169 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #899CA0;
+    color: #1C2B32;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1C2B32;
+    font-size: 10px;
+}
+
+
+input,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin: 5px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 64px 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+a,
+a:link,
+a:visited {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.header-content {
+    max-width: 1000px;
+    text-align: center;
+    padding: 150px 0 300px 0;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.domain-name-field {
+    color: #1C2B32;
+    border: 1px solid #1C2B32;
+    border-radius: 30px 0 0 30px;
+    margin: 0 -5px -5px 0;
+    padding: 17px 70px 17px 17px;
+    background-color: transparent;
+}
+
+.submit-field {
+    color: white;
+    background-color: #1C2B32;
+    border-radius: 0 30px 30px 0;
+    border: 1px solid #1C2B32;
+    padding: 17px;
+}
+
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+
+
+/*///////////// 3.3 Support /////////////*/
+
+.callcenter-image {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.contact-button {
+    background-color: #1C2B32;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #1C2B32;
+    border-radius: 50px;
+    padding: 25px 32px;
+}
+.contact-button:hover {
+    background-color: #899CA0;
+    cursor: pointer;
+    border: 1px solid #1C2B32;
+}
+
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+.details {
+    background-color: #899CA0;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    width: 450px
+}
+
+.summary:hover {
+    cursor: pointer;
+}
+
+
+/*///////////// 3.5 Footer /////////////*/
